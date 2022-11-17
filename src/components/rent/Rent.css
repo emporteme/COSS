@@ -1,4 +1,6 @@
-.rent {}
+.rent {
+    margin-top: -5px;
+}
 
 .background__kran {
     width: 100%;
