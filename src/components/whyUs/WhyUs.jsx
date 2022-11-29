@@ -11,10 +11,14 @@ export const WhyUs = () => {
         <div className="left">
           <p>
             Контроль строительнового процесса в онлайн режиме, создает
-            максимальное удобство в проверке объектов. <br /><br /> <span> Цифровизация документов и
-            проверка выполненных работ занимает меньше времени, тем самым
-            увеличивая скорость и продуктивность сотрудников технического и
-            экономического надзора</span>
+            максимальное удобство в проверке объектов. <br />
+            <br />{" "}
+            <span>
+              {" "}
+              Цифровизация документов и проверка выполненных работ занимает
+              меньше времени, тем самым увеличивая скорость и продуктивность
+              сотрудников технического и экономического надзора
+            </span>
           </p>
           <div className="bottom">
             <p>Просмотр моих объектов</p>
@@ -22,7 +26,13 @@ export const WhyUs = () => {
           </div>
         </div>
         <div className="right">
-        <img src="/images/output-onlinegiftools.png" alt="icon" className="second" />
+          <video src="/video/s1.gif" loop autoPlay muted className="video"></video>
+          {/*<VideoLooper source='{sampleVideo}' start={4.31} end={9.48} autoplay className="video"/>*/}
+          {/*<img
+            src="/images/output-onlinegiftools.png"
+            alt="icon"
+            className="second"
+  />*/}
         </div>
       </div>
     </div>

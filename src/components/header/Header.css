@@ -13,8 +13,17 @@ header{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-header a{
-    color: aliceblue;
+header a p{
+    color: #000;
+}
+.flexa{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.flexa img{
+    width: 13px;
+    height: 7px;
 }
 .nav__left{
     display: flex;
