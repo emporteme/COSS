@@ -1,14 +1,14 @@
 .unity{
     padding-bottom: 40px;
-    padding-top: 70px;
+    padding-top: 170px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .unity .left{
-    padding-left: 70px;
+    padding-left: 100px;
     padding-bottom: 100px;
-    width: 680px;
+    width: 700px;
 }
 .unity .left h1 {
     font-weight: 700;
